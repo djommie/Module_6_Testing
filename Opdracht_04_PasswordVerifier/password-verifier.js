@@ -52,6 +52,7 @@ const verifyPassword = password => {
     return result;
 };
 
+console.log(hasLowerCaseCharacter('Henkie123'))
 
 module.exports = {
     verifyPassword,
