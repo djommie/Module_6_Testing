@@ -53,12 +53,12 @@ const verifyPassword = password => {
 };
 
 
-module.exports =
+module.exports = {
     verifyPassword,
     hasRightLength,
     isNotNull,
     hasUpperCaseCharacter,
     hasLowerCaseCharacter,
     hasDigit,
-    minimumConditionsReached;
-
+    minimumConditionsReached,
+}
